@@ -1,0 +1,21 @@
+# ========================================================
+# Adaptive Workflow & Latency Optimization Voice Bot
+# ========================================================
+
+# Environment & CLI styling
+python-dotenv>=1.0.0
+colorama>=0.4.6
+
+# Async networking & API integrations
+aiohttp>=3.9.0
+httpx>=0.27.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.12
+
+# Text-to-Speech (Neural voice generation)
+edge-tts>=7.0.0
+
+# Future audio & AI packages (can be installed as needed in later phases)
+# sounddevice>=0.4.6
+# numpy>=1.26.0
