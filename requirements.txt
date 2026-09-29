@@ -19,3 +19,5 @@ edge-tts>=7.0.0
 # Future audio & AI packages (can be installed as needed in later phases)
 # sounddevice>=0.4.6
 # numpy>=1.26.0
+
+mangum>=0.17.0
