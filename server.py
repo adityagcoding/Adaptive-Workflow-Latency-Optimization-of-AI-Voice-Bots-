@@ -459,3 +459,6 @@ if (frontend_dir / "index.html").exists():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("server:app", host="0.0.0.0", port=8000, reload=False)
+
+from mangum import Mangum
+handler = Mangum(app)
